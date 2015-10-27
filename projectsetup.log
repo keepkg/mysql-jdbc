@@ -1,0 +1,22 @@
+
+=====
+MYSQL jdbc driver
+
+1.
+$ sudo apt-get install libmysql-java
+
+2.
+Add to .bashrc
+export CLASSPATH=/usr/share/java/mysql.jar
+or add path-to-mysql.jar to CLASSPATH
+
+3.
+Create project.
+
+4.
+Using Eclipse, do following steps:
+
+    Select Project Properties > Java Build Path
+    Select Libries tab
+    Click Add External Jars
+    Choose the jar file, in this case /usr/share/java/mysql.jar
